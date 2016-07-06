@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("../fonts/SourceSansPro/sourcesanspro.woff2") format('woff2');
+	src: url("../fonts/SourceSansPro/sourcesanspro.woff") format("woff"),
+			 url("../fonts/SourceSansPro/sourcesanspro.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("../fonts/SourceSansPro/sourcesansprobold.woff2") format('woff2');
+	src: url("../fonts/SourceSansPro/sourcesansprobold.woff") format("woff"),
+			 url("../fonts/SourceSansPro/sourcesansprobold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("../fonts/SourceSansPro/sourcesansprolight.woff2") format('woff2');
+	src: url("../fonts/SourceSansPro/sourcesansprolight.woff") format("woff"),
+			 url("../fonts/SourceSansPro/sourcesansprolight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 300;
+}

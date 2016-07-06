@@ -1,0 +1,154 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.container {
+	    padding: 20px 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	#stuff {
+        margin: 0;
+        padding: 0;
+    }
+
+    .tab-content > .tab-pane {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .tab-content {
+        padding-bottom: 20px;
+    }
+
+    .topic {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        padding: 10px 30px;
+    }
+
+    .topic-header.narrow {
+        padding: 0 20px 40px;
+    }
+
+    .nav.navbar-nav {
+        width: 100%;
+    }
+
+    .light .navbar-nav li a {
+        color: #a9a9a9;
+    }
+
+    .light .navbar-nav li.active a {
+        color: #fff;
+    }
+
+    .light .navbar-nav li a:hover {
+        color: #eee;
+    }
+
+    .light {
+        background-color: #000;
+    }
+
+    .light .icon-bar {
+        background-color: #fff;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .topic-tab-menu, .navbar-logo img {
+        display: none;
+    }
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
